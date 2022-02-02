@@ -1,0 +1,20 @@
+$text-color: #E9E9E9;
+$light-gray: #838783;
+
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.title {
+  width: fit-content;
+  font-weight: 400;
+  color: $text-color;
+  border-bottom: solid 1px $text-color;
+}
+
+.link {
+  text-decoration: none;
+  color: $light-gray;
+}

@@ -1,0 +1,5 @@
+<div (click)="navigate()" class="nav-item">
+  <img [src]="'assets/svg/' + icon" alt="">
+  <span [class.active]="isActive" class="text">{{ text }}</span>
+  <img src="assets/svg/arrow_ico.svg" alt="" class="arrow" [class.active]="isActive">
+</div>

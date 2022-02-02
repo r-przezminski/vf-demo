@@ -1,0 +1,38 @@
+$text-color: #E9E9E9;
+$light-gray: #838783;
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  color: $light-gray;
+
+  .title {
+    color: $text-color;
+    border-bottom: solid 1px $text-color;
+    width: fit-content;
+    font-weight: 400;
+  }
+}
+
+.social-icons {
+  display: flex;
+  gap: .5rem;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    @media screen and (max-width: 1000px) {
+      margin-top: 1rem
+    }
+  }
+}

@@ -19,13 +19,13 @@ describe('AppComponent', () => {
   it(`should have as title 'vf-components'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('vf-components');
+    expect(app.title).toEqual('vf-features');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('vf-components app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('vf-features app is running!');
   });
 });

@@ -1,0 +1,37 @@
+.app-footer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  min-height: fit-content;
+  background-color: #585A58;
+  padding: 5rem;
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    padding: 5rem 1rem;
+    align-items: center;
+
+    app-contact-section {
+      margin-right: 14.2rem;
+    }
+
+    app-info {
+      margin-right: 18.2rem;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    app-contact-section {
+      margin-right: 6.5rem;
+    }
+
+    app-info {
+      margin-right: 10.5rem;
+    }
+  }
+}
+
+.divider {
+  border-right: solid 2px #838783;
+  margin: 0 1rem;
+}
