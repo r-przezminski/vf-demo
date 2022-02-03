@@ -1,0 +1,23 @@
+.wrapper {
+  display:flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.legend-item {
+  display:flex;
+  gap: .5rem;
+  align-items: center
+}
+
+.square {
+  width: .5rem;
+  height: .5rem;
+  border: solid 1px black;
+}
+
+.label {
+  color: #3D6B81;
+  font-style: italic;
+  font-size: .7rem;
+}

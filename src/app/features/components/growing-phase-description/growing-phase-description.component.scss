@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  font-size: 1rem;
+  color: #578C68;
+}
+
+.description {
+  font-size: .9rem;
+  font-style: italic;
+}

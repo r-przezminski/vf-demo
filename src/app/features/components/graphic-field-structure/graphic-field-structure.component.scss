@@ -1,0 +1,21 @@
+.products-representation {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: calc(100% - 30px);
+  height: 38%;
+  display: flex;
+}
+
+.area {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  color: white;
+  font-weight: lighter;
+}
+
+.rhombus {
+  flex: 1;
+  transform: skewX(-45deg);
+}

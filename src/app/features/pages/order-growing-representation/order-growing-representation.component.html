@@ -1,0 +1,10 @@
+<h1 class="title"><strong class="bold">Doglądasz upraw na polu: </strong>"Zielona Dolina Rolnika Marcina"</h1>
+
+<div class="field-structure">
+  <app-graphic-field-structure [legend]="productsLegend"></app-graphic-field-structure>
+  <app-legend [legend]="productsLegend"></app-legend>
+</div>
+
+<div class="products-list">
+  <app-product-card *ngFor="let product of products" [product]="product"></app-product-card>
+</div>

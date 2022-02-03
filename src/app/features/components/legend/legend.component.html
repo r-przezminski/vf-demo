@@ -1,0 +1,6 @@
+<div class="wrapper">
+  <div *ngFor="let item of legend" class="legend-item">
+    <span class="square" [style]="{ background: item.color }"></span>
+    <p class="label">{{ item.name }}</p>
+  </div>
+</div>

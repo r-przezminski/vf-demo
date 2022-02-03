@@ -1,0 +1,17 @@
+.title {
+  color: #3D6B81;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.field-structure,
+.products-list {
+  margin: 2rem 4rem;
+}
+
+.field-structure {
+  display: flex;
+  justify-content: space-between;
+}
+
